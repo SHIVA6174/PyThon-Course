@@ -47,12 +47,14 @@ print(min(numbers))  # 5 (smallest element)
 print(max(numbers))  # 20 (largest element)
 
 # List Iteration & Conversion
+
 text = ["Python", "is", "fun"]
 sentence = " ".join(text)  # 'Python is fun'
 num_list = list(range(1, 6))  # [1, 2, 3, 4, 5]
 
 
 #  Other Methods
+
 nums = [1, 2, 3, 4, 5]
 
 print(any(nums))  # True (at least one non-zero value)
